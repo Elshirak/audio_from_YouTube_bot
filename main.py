@@ -1,9 +1,5 @@
 import os
 from pytube import YouTube
-import Constants as keys
-from telegram.ext import *
-import Responses as R
-
 
 #  url input from user
 yt = YouTube(input("Enter the URL: \n>> "))
